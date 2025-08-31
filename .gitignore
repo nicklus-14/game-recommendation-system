@@ -2,3 +2,6 @@ games.csv
 recommendations.csv
 Altered CSVs/after_cleaning.csv
 /Altered CSVs
+matrix_data.txt
+cs_matrix.npy
+hstack_data.txt
