@@ -6,3 +6,7 @@ matrix_data.txt
 cs_matrix.npy
 hstack_data.txt
 hstack_data.npy
+Archive/games_metadata.json
+Archive/games_with_features.parquet
+games.json
+games_metadata.json
