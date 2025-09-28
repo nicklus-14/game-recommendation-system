@@ -10,3 +10,5 @@ Archive/games_metadata.json
 Archive/games_with_features.parquet
 games.json
 games_metadata.json
+preprocessed_games.csv
+preprocessed_games.parquet
