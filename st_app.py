@@ -37,7 +37,7 @@ df['user_reviews_log'] = np.log1p(df['user_reviews'])
 embeddings = np.load('embeddings.npy')
 tags = genres_matrix
 numerics = df[['price_log', 'positive_ratio_log', 'user_reviews_log']].values
-X = np.hstack([numerics*0.4, embeddings*0.7, tags*1.7])
+X = np.hstack([numerics*0.2, embeddings*0.3, tags*0.5])
 cs_matrix = cosine_similarity(X)
 
 def recommend(df, appid, cs_matrix, k=10):
