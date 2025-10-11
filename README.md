@@ -22,8 +22,5 @@ Once these prerequisite steps are completed, do the following:
 
 * Run through every cell of ```feature_engineering_and_similarity.ipynb``` until the start of normalization (*there will be a note to mark the stop location*)  
 * Write ```streamlit run st_app.py``` within the terminal; this will open the app in your browser
-
-* Use the first box to search for a game
-* Then use the dropdown to select the game
-* Choose the amount of recommendation
-* Search
+* Use the first box to search for a game, then use the dropdown to select the game
+* Choose the amount of recommendation and press the search button
